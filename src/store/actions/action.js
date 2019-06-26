@@ -5,7 +5,7 @@ import history from '../../history'
 export const login = (loginData)=>async (dispatch) => {
 
     
-    const response= await axios.get('https://api.github.com/search/users?q=eric')
+    const response= await axios.get('https://api.github.com/users')
 
         let token= null
 
